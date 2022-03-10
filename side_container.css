@@ -37,25 +37,28 @@ body{
 }
 main{
     position: relative;
-    width:100%;
-    height: 100%;
+    /* width:100%;
+    height: 100%; */
     font-size: 18px;
+  
   
 }
 
 #side-container{
-    position: absolute;
+  
+    position: fixed;
     left:0;
-    top:0;
+    top:0; 
     width:18vw;
     height:100vh;
-    padding: 15px;
+    padding: 20px;
     padding-bottom: 80px;
     background-color: black;
     color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    z-index:2;
 }
 
 .side-container-header{ 
